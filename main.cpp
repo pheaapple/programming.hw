@@ -9,10 +9,15 @@ string num2() {
     string x = "hello earth";
     return x;
 }
+string num3() {
+    string x = "hello cam";
+    return x;
+}
 int main() {
 
     cout << num1() << endl;
     cout << num2() << endl;
+    cout << num3() << endl;
     
     
     return 0;
